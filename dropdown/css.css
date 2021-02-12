@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="checkbox"] {
+    display:none;
+}
+.button {
+    display: inline-block;
+    background-color: rgb(83, 83, 83);
+    color: rgb(16, 117, 58);
+    border: none;
+    padding: 10px;
+}
+.menu {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li a {
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    color:rgb(16, 117, 58);
+    padding: 5px 5px;
+    border-top: 1px solid #CCC;
+}
+ul li a:hover {
+    background-color: rgb(83, 83, 83);
+}
+#dropdown:checked ~ .menu {
+    display: block;
+}
+span {
+    user-select: none;
+}
+.button:hover {
+    border: 1px solid #ccc;
+    padding: 9px;
+}
